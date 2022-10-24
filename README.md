@@ -2,6 +2,7 @@
 This repository is used in our paper:
 
 $m^4Adapter$: Multilingual Multi-Domain Adaptation for Machine Translation with a Meta-Adapter (Findings of EMNLP 2022)
+[ppaer link](https://arxiv.org/abs/2210.11912)
 
 Please cite our paper and kindly give a star for this repository if you use this code.
 
