@@ -66,18 +66,19 @@ nohup python meta_adapt.py \
 #### Citation
 
 ```bibtex
-@inproceedings{lai-etal-2022-m4Adapter,
-    title = "m^4Adapter: Multilingual Multi-Domain Adaptation for Machine Translation with a Meta-Adapter",
+@inproceedings{lai-etal-2022-4,
+    title = "m{\textasciicircum}4 Adapter: Multilingual Multi-Domain Adaptation for Machine Translation with a Meta-Adapter",
     author = "Lai, Wen  and
       Chronopoulou, Alexandra  and
       Fraser, Alexander",
     booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2022",
-    month = Dec,
+    month = dec,
     year = "2022",
     address = "Abu Dhabi, United Arab Emirates",
     publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/2022.findings-emnlp.1",
-    doi = "10.18653/v1/2022.findings-emnlp.1",
+    url = "https://aclanthology.org/2022.findings-emnlp.315",
+    pages = "4282--4296",
+    abstract = "Multilingual neural machine translation models (MNMT) yield state-of-the-art performance when evaluated on data from a domain and language pair seen at training time. However, when a MNMT model is used to translate under domain shift or to a new language pair, performance drops dramatically. We consider a very challenging scenario: adapting the MNMT model both to a new domain and to a new language pair at the same time. In this paper, we propose m{\textasciicircum}4Adapter (Multilingual Multi-Domain Adaptation for Machine Translation with a Meta-Adapter), which combines domain and language knowledge using meta-learning with adapters. We present results showing that our approach is a parameter-efficient solution which effectively adapts a model to both a new language pair and a new domain, while outperforming other adapter methods. An ablation study also shows that our approach more effectively transfers domain knowledge across different languages and language information across different domains.",
 }
 ```
 
