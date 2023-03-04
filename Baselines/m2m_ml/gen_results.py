@@ -15,14 +15,7 @@
 
 
 """
-Example: 
-
-CUDA_VISIBLE_DEVICES=3 nohup python gen_results.py \
---domain KDE4,OpenSubtitles,QED,TED2020,Ubuntu \
---input_path /mounts/data/proj/lavine/multilingual_multidomain/data/original_data/tsv_split \
---model_path /mounts/data/proj/lavine/multilingual_multidomain/experiments/paper_repro/Baselines/m2m_ml/EU_unseen/model \
---output_path /mounts/data/proj/lavine/multilingual_multidomain/experiments/paper_repro/Baselines/m2m_ml/EU_unseen/gen_result \
-> /mounts/data/proj/lavine/multilingual_multidomain/experiments/paper_repro/Baselines/m2m_ml/EU_unseen/gen_result/log.txt &
+Example:
 
 """
 import argparse

@@ -49,18 +49,6 @@ parser.add_argument('--meta_lr', type=float, default=5e-5, help='meta learning r
 parser.add_argument('--dropout', type=float, default=0.1, help='')
 parser.add_argument('--hidden_dims', type=int, default=768, help='')
 
-parser.add_argument('--sc_labels', type=int, default=3, help='')
-parser.add_argument('--qa_labels', type=int, default=2, help='')
-parser.add_argument('--tc_labels', type=int, default=10, help='')
-parser.add_argument('--po_labels', type=int, default=18, help='')
-parser.add_argument('--pa_labels', type=int, default=2, help='')
-
-parser.add_argument('--qa_batch_size', type=int, default=8, help='batch size')
-parser.add_argument('--sc_batch_size', type=int, default=32, help='batch size')
-parser.add_argument('--tc_batch_size', type=int, default=32, help='batch size')
-parser.add_argument('--po_batch_size', type=int, default=32, help='batch_size')
-parser.add_argument('--pa_batch_size', type=int, default=8, help='batch size')
-
 parser.add_argument('--task_per_queue', type=int, default=8, help='')
 parser.add_argument('--update_step', type=int, default=3, help='')
 parser.add_argument('--beta', type=float, default=1.0, help='')

@@ -41,6 +41,7 @@ def main(args):
                       + ' ' + os.path.join(args.output, dl, dl + '.' + pre_LL) + ' 1 180'
             subprocess.call(command, shell=True)
 
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument("--input", required=True, type=str, help='input path')

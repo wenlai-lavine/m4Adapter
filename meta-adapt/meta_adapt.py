@@ -17,27 +17,6 @@
 """
 Example:
 
-nohup python meta_adapt.py \
---device_id 6 \
---domain EUbookshop \
---finetune_scripts /mounts/work/lavine/lavine_code/MMDMT/paper/finetune_meta_adapter_unseen.py \
---generate_scripts /mounts/work/lavine/lavine_code/MMDMT/paper_repro/unseen/generate_base_adapter.py \
---data_path /mounts/data/proj/lavine/multilingual_multidomain/data/original_data/tsv_split \
---adapter_path /mounts/data/proj/lavine/multilingual_multidomain/experiments/paper_repro_new/Baselines/meta_adapters/EU_unseen/save_adapter \
---save_path /mounts/data/proj/lavine/multilingual_multidomain/experiments/paper_repro_new/Baselines/meta_adapters/EU_unseen/unseen \
---generate_path /mounts/data/proj/lavine/multilingual_multidomain/experiments/paper_repro_new/Baselines/meta_adapters/EU_unseen/unseen/generate_results \
-> /mounts/data/proj/lavine/multilingual_multidomain/experiments/paper_repro_new/Baselines/meta_adapters/EU_unseen/unseen/log.txt &
-
-nohup python meta_adapt.py \
---device_id 1 \
---domain EUbookshop \
---finetune_scripts /mounts/work/lavine/lavine_code/MMDMT/paper/finetune_meta_adapter_unseen.py \
---generate_scripts /mounts/work/lavine/lavine_code/MMDMT/paper_repro/unseen/generate_base_adapter.py \
---data_path /mounts/data/proj/lavine/multilingual_multidomain/data/original_data/tsv_split \
---adapter_path /mounts/data/proj/lavine/multilingual_multidomain/experiments/paper_repro_new/Baselines/meta_pre_adapters/EU_unseen/save_adapter \
---save_path /mounts/data/proj/lavine/multilingual_multidomain/experiments/paper_repro_new/Baselines/meta_pre_adapters/EU_unseen/unseen \
---generate_path /mounts/data/proj/lavine/multilingual_multidomain/experiments/paper_repro_new/Baselines/meta_pre_adapters/EU_unseen/unseen/generate_results \
-> /mounts/data/proj/lavine/multilingual_multidomain/experiments/paper_repro_new/Baselines/meta_pre_adapters/EU_unseen/unseen/log.txt &
 """
 import argparse
 import os
