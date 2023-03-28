@@ -17,6 +17,10 @@ Please cite our paper and kindly give a star for this repository if you use this
 
 ------
 
+#### Updates (2023-03-28): upload the code for using adapter in m2m_100 model. please copy the ```adapters/m2m.py``` to the ```adapter-transformer``` path
+
+------
+
 #### Step 1: preprocess
 
 + Download the original corpus from [OPUS](https://opus.nlpl.eu/), contains different domains (*EUbookshop, KDE, OpenSubtitles, QED, TED, Ubuntu, Bible, UN, Tanzil, infopankki*) and different language (*en, de, fr, mk, sr, et, hr, hu, fi, uk, is, lt, ar, es, ru, zh*).
